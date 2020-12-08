@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ExampleFrontend
+Bundle-SymbolicName: ExampleFrontend;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: examplefrontend.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ example.core
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Automatic-Module-Name: ExampleFrontend
+Bundle-ActivationPolicy: lazy
