@@ -9,3 +9,4 @@ Export-Package: core.test,
 Bundle-Classpath: .,
  lib/json-simple-1.1.1.jar
 Bundle-Vendor: PDE Example
+Automatic-Module-Name: ExampleCore
