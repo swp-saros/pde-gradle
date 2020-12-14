@@ -2,9 +2,10 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ExampleCore
 Bundle-SymbolicName: example.core
-Bundle-Version: 1.0.0.qualifier
-Automatic-Module-Name: ExampleCore
+Bundle-Version: 1.0.0
 Bundle-RequiredExecutionEnvironment: JavaSE-14
+Export-Package: core.test,
+ org.json.simple
 Bundle-Classpath: .,
  lib/json-simple-1.1.1.jar
-Export-Package: core.test
+Bundle-Vendor: PDE Example

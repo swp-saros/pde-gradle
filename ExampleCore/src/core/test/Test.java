@@ -7,15 +7,16 @@ public class Test {
 	
 	public String stringReturn() {
 		JSONObject obj = new JSONObject();
-        obj.put("name", "mkyong.com");
-        obj.put("age", 100);
+        obj.put("group", "2 PDE and Gradle");
+        obj.put("Sprint", 2);
 
         JSONArray list = new JSONArray();
-        list.add("msg 1");
-        list.add("msg 2");
-        list.add("msg 3");
+        list.add("Felix");
+        list.add("Phil");
+        list.add("Paul");
+        list.add("Eike");
 
-        obj.put("messages", list);
+        obj.put("members", list);
 
 		return(obj.toJSONString());
 	}

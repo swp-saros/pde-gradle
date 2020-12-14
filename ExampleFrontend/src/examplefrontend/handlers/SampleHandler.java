@@ -7,6 +7,8 @@ import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.handlers.HandlerUtil;
 import org.eclipse.jface.dialogs.MessageDialog;
 
+import org.json.simple.*;
+
 import core.test.Test;
 
 public class SampleHandler extends AbstractHandler {
@@ -19,7 +21,17 @@ public class SampleHandler extends AbstractHandler {
 		MessageDialog.openInformation(
 				window.getShell(),
 				"ExampleFrontendPlugin",
-				test.stringReturn());
+				test.stringReturn()+"\n"+stringBuild());
 		return null;
+	}
+	
+	public String stringBuild() {
+		JSONObject obj = new JSONObject();
+		
+        obj.put("Where?", "in ExampleFrontend");
+        obj.put("Properties?", "Added the path");
+        obj.put("Export-Package", "org.json.simple");
+                
+		return obj.toJSONString();
 	}
 }

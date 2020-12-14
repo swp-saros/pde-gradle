@@ -2,11 +2,11 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ExampleFrontend
 Bundle-SymbolicName: ExampleFrontend;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.0
 Bundle-Activator: examplefrontend.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  example.core
-Bundle-RequiredExecutionEnvironment: JavaSE-14
-Automatic-Module-Name: ExampleFrontend
 Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Bundle-Vendor: PDE Example
