@@ -61,12 +61,14 @@ tasks {
     register("generateLibAll") {
         dependsOn(
                 "cleanGenerateLibAll",
+                ":pde-example-master.LibBundle:generateLib",
                 ":pde-example-master.ExampleCore:generateLib",
                 ":pde-example-master.ExampleFrontend:generateLib")
     }
 
     register("cleanGenerateLibAll") {
         doLast {
+            project(":pde-example-master.LibBundle").file("lib").deleteRecursively()
             project(":pde-example-master.ExampleFrontend").file("lib").deleteRecursively()
             project(":pde-example-master.ExampleCore").file("lib").deleteRecursively()
         }
@@ -94,14 +96,12 @@ tasks {
     }
 
     register("sarosEclipse", Copy::class) {
-        dependsOn(
-                ":ExampleFrontend:jar")
 
         group = "Build"
         description = "Builds and tests all modules required by Saros for Eclipse"
 
+		from(project(":LibBundle").tasks.findByName("jar"))
         from(project(":ExampleCore").tasks.findByName("jar"))
-        from(project(":ExampleFrontend").tasks.findByName("jar"))
         into("build/distribution/eclipse")
     }
 }

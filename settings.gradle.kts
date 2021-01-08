@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.enterprise") version "3.3.3"
 }
 
-listOf("ExampleCore", "ExampleFrontend").forEach { dir ->
+listOf("LibBundle", "ExampleCore").forEach { dir ->
     include(dir)
     project(":$dir").projectDir = file(dir)
 }

@@ -3,28 +3,33 @@ plugins {
 }
 
 val versionQualifier = ext.get("versionQualifier") as String
-val eclipseVersionNr = ext.get("eclipseVersion") as String
 
 configurations {
-    
+    // Defined in root build.gradle
+    val testConfig by getting {}
+    val releaseDep by getting {}
+
+    // Default configuration
+    val compile by getting {
+        extendsFrom(releaseDep)
+    }
+    val testCompile by getting {
+        extendsFrom(testConfig)
+    }
+    val plain by creating {
+        extendsFrom(compile)
+    }
 }
 
 sarosEclipse {
     manifest = file("META-INF/MANIFEST.MF")
-    excludeManifestDependencies = listOf("libbundle", "org.eclipse.gef")
     isCreateBundleJar = true
     isAddPdeNature = true
-    isAddDependencies = true
     pluginVersionQualifier = versionQualifier
-    eclipseVersion = eclipseVersionNr
 }
 
 dependencies {
-	compile(project(":LibBundle"))
-    
-	//implementation(project(":LibBundle"))
-	
-	releaseDep(fileTree("lib"))
+    releaseDep(files("lib/json-simple-1.1.1.jar"))
 }
 
 sourceSets {

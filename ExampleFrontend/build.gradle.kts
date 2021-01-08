@@ -19,7 +19,7 @@ configurations {
 
 sarosEclipse {
     manifest = file("META-INF/MANIFEST.MF")
-    excludeManifestDependencies = listOf("example.core", "org.eclipse.gef")
+    excludeManifestDependencies = listOf("libbundle", "example.core", "org.eclipse.gef")
     isAddPdeNature = true
     isCreateBundleJar = true
     isAddDependencies = true
@@ -36,6 +36,7 @@ sourceSets {
 }
 
 dependencies {
+    implementation(project(":LibBundle"))
     implementation(project(":ExampleCore"))
     // This is a workaround for https://github.com/saros-project/saros/issues/1086
     implementation("org.eclipse.platform:org.eclipse.urischeme:1.1.0")
@@ -85,7 +86,7 @@ tasks {
      *  |- site.xml
      */
     val updateSitePreparation by registering(Copy::class) {
-        dependsOn(":ExampleCore:jar", ":ExampleFrontend:jar")
+        dependsOn(":LibBundle:jar", ":ExampleCore:jar", ":ExampleFrontend:jar")
 
         into(updateSiteDirPath)
         into("features") {
@@ -94,6 +95,7 @@ tasks {
         into("plugins") {
             from(project.tasks.findByName("jar"))
             from(project(":ExampleCore").tasks.findByName("jar"))
+            from(project(":LibBundle").tasks.findByName("jar"))
         }
         from("update/site.xml")
     }

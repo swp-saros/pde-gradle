@@ -7,4 +7,4 @@ Automatic-Module-Name: LibBundle
 Bundle-RequiredExecutionEnvironment: JavaSE-14
 Export-Package: org.json.simple
 Bundle-Classpath: .,
- libs/json-simple-1.1.1.jar
+ lib/json-simple-1.1.1.jar
