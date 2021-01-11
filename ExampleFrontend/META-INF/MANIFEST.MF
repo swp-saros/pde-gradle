@@ -5,7 +5,6 @@ Bundle-SymbolicName: ExampleFrontend;singleton:=true
 Bundle-Version: 1.0.0
 Bundle-Activator: examplefrontend.Activator
 Require-Bundle: org.eclipse.ui,
- org.eclipse.ui.workbench,
  org.eclipse.core.runtime,
  example.core
 Bundle-ActivationPolicy: lazy
