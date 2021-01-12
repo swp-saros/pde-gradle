@@ -1,12 +1,303 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry output="bin/main" kind="src" path="src">
 		<attributes>
-			<attribute name="module" value="true"/>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
-	<classpathentry kind="lib" path="/LibBundle/libs/json-simple-1.1.1.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="src" path="/ExampleCore"/>
+	<classpathentry kind="src" path="/LibBundle"/>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.ui/3.109.100/e17d433ba3c0794608f64aa0e92f393d8d2f5b77/org.eclipse.ui-3.109.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.ui/3.109.100/ded4e80a4d5ba2a35acbd47f3d1cd08b10fa86d3/org.eclipse.ui-3.109.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.ui.workbench/3.111.0/e4f9f41d03b3a6330686e8f3b7a3efdeefe5d1aa/org.eclipse.ui.workbench-3.111.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.ui.workbench/3.111.0/d17c5e4f3acd8f50c61b1e34a29b3c18d3785b84/org.eclipse.ui.workbench-3.111.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.addons.swt/1.4.0/e33ee8bc41b8fcf806ce410999f9a4a25f086869/org.eclipse.e4.ui.workbench.addons.swt-1.4.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.addons.swt/1.4.0/569c59cdd240b11ae3197241484176319cec66c2/org.eclipse.e4.ui.workbench.addons.swt-1.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.renderers.swt/0.15.0/ce648d9d194830da7c6e5dd433321ff760eb66ff/org.eclipse.e4.ui.workbench.renderers.swt-0.15.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.renderers.swt/0.15.0/bcfdd0287dd047f248dd33807d8277a1297d9759/org.eclipse.e4.ui.workbench.renderers.swt-0.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.swt/0.15.0/a1b0b0180626862d70633d076b8b57c20901cebe/org.eclipse.e4.ui.workbench.swt-0.15.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench.swt/0.15.0/4588879c7162fd30142085cc8e665af09f11d07f/org.eclipse.e4.ui.workbench.swt-0.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.urischeme/1.1.0/9f9d67ca2a694d21e1a700d9414b71779f94c2e6/org.eclipse.urischeme-1.1.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.urischeme/1.1.0/1675da3538763e2ade202cfda6d349479b3ad64b/org.eclipse.urischeme-1.1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.help/3.8.800/cf85c6ea85babaff29766bafde6d3df69def66e5/org.eclipse.help-3.8.800-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.help/3.8.800/4652ad6166527629df05e87d916c79b493f5fee3/org.eclipse.help-3.8.800.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench/1.12.0/7a78d2c0f55e035a9817233278eeb84a2760f740/org.eclipse.e4.ui.workbench-1.12.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench/1.12.0/18bce1baa1d1ecbf6727d1175839015244d8d368/org.eclipse.e4.ui.workbench-1.12.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.expressions/3.7.0/6707e1838ac2e60e7e3b3ddf0e3a1e6958f63435/org.eclipse.core.expressions-3.7.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.expressions/3.7.0/80511d2bbe6c51efb1f6d94c53d92c9438f1dd53/org.eclipse.core.expressions-3.7.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.swt.theme/0.13.0/fc5458dfab2871f132cffac8fa62b2db58c91980/org.eclipse.e4.ui.css.swt.theme-0.13.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.swt.theme/0.13.0/6be5d652da749e180b6c2ffa4407b1e087b42280/org.eclipse.e4.ui.css.swt.theme-0.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.swt/0.14.0/6e8e4036666e6c3d98e3f497666c679a52058c59/org.eclipse.e4.ui.css.swt-0.14.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.swt/0.14.0/a0c04fdd873f924053441587622c8783d5921647/org.eclipse.e4.ui.css.swt-0.14.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.core/0.13.0/f81f4d70379a4fbedba494e993a62554f39b4161/org.eclipse.e4.ui.css.core-0.13.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.css.core/0.13.0/7b1f3f7d4dbb9b72b3e0d51ddf8a083aeab8b7b/org.eclipse.e4.ui.css.core-0.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.model.workbench/2.1.900/e341bc503570760b7f93467b8ae525d0a44c11b7/org.eclipse.e4.ui.model.workbench-2.1.900-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.model.workbench/2.1.900/37f64358302405cc9fdc0ed4771e075ae483fbe4/org.eclipse.e4.ui.model.workbench-2.1.900.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench3/0.15.500/f6fdb010793e1643c4e9a0ae7b3b2843fc6916c2/org.eclipse.e4.ui.workbench3-0.15.500-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.workbench3/0.15.500/beb1354a5cc65607f9ef76fc299301d84b2218b2/org.eclipse.e4.ui.workbench3-0.15.500.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.dialogs/1.2.100/adc5465d7b8daee41b71b960eabf7777738ede09/org.eclipse.e4.ui.dialogs-1.2.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.dialogs/1.2.100/8ae96a47f35f2a5c0729422ff965e9a0ad6f37c1/org.eclipse.e4.ui.dialogs-1.2.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.emf.xpath/0.2.800/5352e3ff4d7bf20c58c52631e5fb5919136b28be/org.eclipse.e4.emf.xpath-0.2.800-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.emf.xpath/0.2.800/9fa91ff3206526f0c2ef9d934dbe20d4a03db032/org.eclipse.e4.emf.xpath-0.2.800.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.runtime/3.20.0/774846c8cf5c231177ae9d2d908fd79e2d06b5ad/org.eclipse.core.runtime-3.20.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.runtime/3.20.0/a6cb268691ea278ace617383a9fe602c664162e5/org.eclipse.core.runtime-3.20.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.contenttype/3.7.800/23dd006650940f0dd1882aeadc47c83693a1c1de/org.eclipse.core.contenttype-3.7.800-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.contenttype/3.7.800/33b952afbd75849cca0041dc6cda0cf8c3ca614b/org.eclipse.core.contenttype-3.7.800.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.app/1.5.0/b6896664e962c49ce20ac16341af2f146087c15/org.eclipse.equinox.app-1.5.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.app/1.5.0/f8bcdacfcb3dde74fe18ca99d036a61255c41593/org.eclipse.equinox.app-1.5.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.registry/3.10.0/f4d0a5990eff821d5c972ea0c9cf13b0f02e4f6d/org.eclipse.equinox.registry-3.10.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.registry/3.10.0/d2d48214947b78f416e0b35c9c9ac595b60eb6ab/org.eclipse.equinox.registry-3.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.jface.databinding/1.12.100/4fe47077d84b16759e15567d30f5f4c65366cad1/org.eclipse.jface.databinding-1.12.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.jface.databinding/1.12.100/c6e3343005a59acf75086433cb17c67720796dd7/org.eclipse.jface.databinding-1.12.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.jface/3.22.0/f7363d2d9ca1e4d1c75de9e08ffe162b01add681/org.eclipse.jface-3.22.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.jface/3.22.0/1f5dead56aef226ac73ea7defd228160d40c157d/org.eclipse.jface-3.22.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding/1.10.100/4e014f038fc3b1caaf7aa3d88438107596c71fad/org.eclipse.core.databinding-1.10.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding/1.10.100/c38f215cc207771d3f180cb08ac32b3c7b93c4f8/org.eclipse.core.databinding-1.10.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding.property/1.8.100/d251bcd55208c5fa54516f755d05af54fcf2057/org.eclipse.core.databinding.property-1.8.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding.property/1.8.100/f6bcefa73644380996f88cea912f8264758a787b/org.eclipse.core.databinding.property-1.8.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding.observable/1.10.0/dc0490057c21402d8ae90c82fc3171daa1e430c0/org.eclipse.core.databinding.observable-1.10.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.databinding.observable/1.10.0/f05b1f9a17c8634fbae83880154983261350a2fb/org.eclipse.core.databinding.observable-1.10.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.bindings/0.13.0/ff3ac98f41705665ab8d03da4f364941b0ae996c/org.eclipse.e4.ui.bindings-0.13.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.bindings/0.13.0/28d0e9d5023c5ba1abead931f27ec2b99e6fa9d/org.eclipse.e4.ui.bindings-0.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.services/1.4.0/43462efd2a40bcd9f7d4680a69d34c4743b91158/org.eclipse.e4.ui.services-1.4.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.services/1.4.0/6e51770ed5bc44512f35de7724a18972c1962399/org.eclipse.e4.ui.services-1.4.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.services/2.2.500/8ad4b71a9c5534c5a56d0dabfbfb9068b0dfa090/org.eclipse.e4.core.services-2.2.500-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.services/2.2.500/8a84f0c48443d7c1c782bf9e96140e6dd299bf02/org.eclipse.e4.core.services-2.2.500.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.jobs/3.10.1000/de7ebcd2b3a662b128a704697044b615b65ba2fd/org.eclipse.core.jobs-3.10.1000-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.jobs/3.10.1000/c1dcf4865a210500207ab3adf4640afa8cef1e70/org.eclipse.core.jobs-3.10.1000.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.preferences/3.8.100/d8d8a10209393dd2ba7ddf438dcf2bdd1affda9/org.eclipse.equinox.preferences-3.8.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.preferences/3.8.100/b303ec2fe89541bbe0141435c9fc68c9aa446e29/org.eclipse.equinox.preferences-3.8.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.commands/3.9.800/36fd14e21e90db2ea37982bbfa05db1434386597/org.eclipse.core.commands-3.9.800-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.core.commands/3.9.800/919244ac9a904ba3fb8ac00e9986c0acf19f42b2/org.eclipse.core.commands-3.9.800.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.commands/0.13.0/3d1156d45d90f88c8dc38d6a43bb95ca0741f037/org.eclipse.e4.core.commands-0.13.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.commands/0.13.0/4e3528beee311781f97c4e915e9164a0dff02e6b/org.eclipse.e4.core.commands-0.13.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.common/3.14.0/baf2e4b5dc9c160cdaa5d7f9b3a70a9a0cbf5580/org.eclipse.equinox.common-3.14.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.equinox.common/3.14.0/6d8b94b048bad7ac83e4da2134eff9760e460db6/org.eclipse.equinox.common-3.14.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.swt.win32.win32.x86_64/3.115.100/a545004f77a11f20f0ba21dd920b5c67ad32be4c/org.eclipse.swt.win32.win32.x86_64-3.115.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.swt.win32.win32.x86_64/3.115.100/78eb700af13a09e2d1f0829206e664deea263d03/org.eclipse.swt.win32.win32.x86_64-3.115.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.widgets/1.2.800/cb0e028cc93e78f256ea9ee2b05973084e188077/org.eclipse.e4.ui.widgets-1.2.800-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.widgets/1.2.800/a3a22c3a6dce696117a089ca164edcc432420c33/org.eclipse.e4.ui.widgets-1.2.800.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.swt/3.115.100/948d0398d65dc4c628a2a1402708539d0f1a9b63/org.eclipse.swt-3.115.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.di/1.2.900/e43200635f24c74e73645d4ef1450af48f53004e/org.eclipse.e4.ui.di-1.2.900-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.ui.di/1.2.900/c1126a57d9f5ff12f99c9a25968201a75327dc58/org.eclipse.e4.ui.di-1.2.900.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.16.0/c9f5f94713b197f738059530200f7e1f29f448f2/org.eclipse.emf.ecore.xmi-2.16.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.16.0/d97e62119430239a787f779b399aa4b3fe11106e/org.eclipse.emf.ecore.xmi-2.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di.extensions/0.16.0/7913fc9fef81fe185fe3dff3c46ebbcfc634ceef/org.eclipse.e4.core.di.extensions-0.16.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di.extensions/0.16.0/e5cf8bef1a67b02dd3ea8de3a92588cd9bc329b9/org.eclipse.e4.core.di.extensions-0.16.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.change/2.14.0/b3aaa6854d19586062ddc4230428594dbee20486/org.eclipse.emf.ecore.change-2.14.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore.change/2.14.0/919d756fed4322b1dac8ea37e54f186ee8a6d6bd/org.eclipse.emf.ecore.change-2.14.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.23.0/7aeceadc95729b8d11755a1c04ce72d07338c6d/org.eclipse.emf.ecore-2.23.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.ecore/2.23.0/7826e0eab245184ece5eea2341e7333312f4a329/org.eclipse.emf.ecore-2.23.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.contexts/1.8.400/bcedc6426a7e0a3153f93444254cc06e98dae98c/org.eclipse.e4.core.contexts-1.8.400-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.contexts/1.8.400/c49eede47737b94fc594af2cf7d81145637364df/org.eclipse.e4.core.contexts-1.8.400.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di/1.7.600/10b6b1e78e91f192d2417fa90b027154188524d7/org.eclipse.e4.core.di-1.7.600-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di/1.7.600/414a6d557a79b6186c5946c17471cedb5a6963b0/org.eclipse.e4.core.di-1.7.600.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.osgi/3.16.100/c95e88379550614bd1619498a38b38953840e799/org.eclipse.osgi-3.16.100-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.osgi/3.16.100/7ddb312f386b799d6e004d193a01c50169bf69f3/org.eclipse.osgi-3.16.100.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.birt.runtime/org.w3c.css.sac/1.3.1.v200903091627/796dae9a139b0873907d583632d830c6683960f3/org.w3c.css.sac-1.3.1.v200903091627-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.birt.runtime/org.w3c.css.sac/1.3.1.v200903091627/8a9501900c6ed5d6da577bf9e947011319c8e512/org.w3c.css.sac-1.3.1.v200903091627.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.13/e20801fb330799d23187c843e6509f575b382bfc/batik-css-1.13-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-css/1.13/90d83f11998260ad0f7ac784f90181f41ccd5bcd/batik-css-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.common/2.21.0/81bf6de5b13d47c756f6de65ccef6daee2ecc466/org.eclipse.emf.common-2.21.0-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.emf/org.eclipse.emf.common/2.21.0/633ff4e190385c22aebad0e619752fd64a1af108/org.eclipse.emf.common-2.21.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di.annotations/1.6.600/d61b36f2fa27d5d71372992b03877649a8bf0dd2/org.eclipse.e4.core.di.annotations-1.6.600-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.eclipse.platform/org.eclipse.e4.core.di.annotations/1.6.600/dfda249e88a7ba3a3268780eff75e87dd177fac2/org.eclipse.e4.core.di.annotations-1.6.600.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.13/c65bf2343dd9edaf23764cedae1cfac98ac2c58f/batik-util-1.13-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-util/1.13/341818ceb5f7088c9ff5b35fac419ad9a74d8b6f/batik-util-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.13/4fb8a6e9187c35e1f0a2ed21be514bc1af3d6b5a/batik-constants-1.13-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-constants/1.13/2778851f7c8e7023578e7b76c4e4f11e4b183a13/batik-constants-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.13/b4ae66cff4ebdea9772eab9fc38d6ebe31d2fab1/batik-i18n-1.13-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-i18n/1.13/e08aab4a78a5825144d7f1772356c0ee059a8d46/batik-i18n-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-shared-resources/1.13/b138fede83cd7aade16813f978b0b0c58ba8d0fc/batik-shared-resources-1.13-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-shared-resources/1.13/5b886d1a3327b1bf09e377d359c5d2392cccfed0/batik-shared-resources-1.13.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.4/21a2ad053f250db743ade3ea25719d77b98a7a70/xmlgraphics-commons-2.4-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/xmlgraphics-commons/2.4/8d261df049a23d40a053d2700399ea76080fe0a8/xmlgraphics-commons-2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis-ext/1.3.04/41a8b86b358e87f3f13cf46069721719105aff66/xml-apis-ext-1.3.04.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/8635d6b633d632d5aad1924fb0dc767b4527689/commons-jxpath-1.3-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/c22d7d0f0f40eb7059a23cfa61773a416768b137/commons-jxpath-1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/10e13eb33d8c2c55a2517ca47d109626520e4e59/commons-io-1.3.1-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.3.1/b90b6ac57cf27a2858eaa490d02ba7945d18ca7b/commons-io-1.3.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.0.4/8d3424a318e818f88568dfb3b55c58583364ba9/commons-logging-1.0.4-sources.jar" kind="lib" path="C:/Users/etaeg/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.0.4/f029a2aefe2b3e1517573c580f948caac31b1056/commons-logging-1.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Data/git/pde-gradle/LibBundle/libs/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 </classpath>
