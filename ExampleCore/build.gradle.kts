@@ -6,7 +6,20 @@ val versionQualifier = ext.get("versionQualifier") as String
 val eclipseVersionNr = ext.get("eclipseVersion") as String
 
 configurations {
-    
+    // Defined in root build.gradle
+    val testConfig by getting {}
+    val releaseDep by getting {}
+
+    // Default configuration
+    val compile by getting {
+        extendsFrom(releaseDep)
+    }
+    val testCompile by getting {
+        extendsFrom(testConfig)
+    }
+    val plain by creating {
+        extendsFrom(compile)
+    }
 }
 
 sarosEclipse {

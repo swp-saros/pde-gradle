@@ -102,6 +102,7 @@ tasks {
 
 		from(project(":LibBundle").tasks.findByName("jar"))
         from(project(":ExampleCore").tasks.findByName("jar"))
+		from(project(":ExampleFrontend").tasks.findByName("jar"))
         into("build/distribution/eclipse")
     }
 }
