@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: LibBundle
+Bundle-SymbolicName: libbundle
+Bundle-Version: 1.0.0
+Automatic-Module-Name: LibBundle
+Bundle-RequiredExecutionEnvironment: JavaSE-14
+Export-Package: org.json.simple
+Bundle-Classpath: .,
+ lib/json-simple-1.1.1.jar

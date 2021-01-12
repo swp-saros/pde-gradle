@@ -61,14 +61,16 @@ tasks {
     register("generateLibAll") {
         dependsOn(
                 "cleanGenerateLibAll",
-                ":pde-example-master.ExampleCore:generateLib",
-                ":pde-example-master.ExampleFrontend:generateLib")
+                ":LibBundle:generateLib",
+                ":ExampleCore:generateLib",
+                ":ExampleFrontend:generateLib")
     }
 
     register("cleanGenerateLibAll") {
         doLast {
-            project(":pde-example-master.ExampleFrontend").file("lib").deleteRecursively()
-            project(":pde-example-master.ExampleCore").file("lib").deleteRecursively()
+            project(":LibBundle").file("lib").deleteRecursively()
+            project(":ExampleFrontend").file("lib").deleteRecursively()
+            project(":ExampleCore").file("lib").deleteRecursively()
         }
     }
 
@@ -78,7 +80,8 @@ tasks {
     register("prepareEclipse") {
         dependsOn(
                 subprojects.map { listOf(":${it.name}:cleanEclipseProject", ":${it.name}:cleanEclipseClasspath") }.flatten() +
-                subprojects.map { listOf(":${it.name}:eclipseProject", ":${it.name}:eclipseClasspath") }.flatten()
+                subprojects.map { listOf(":${it.name}:eclipseProject", ":${it.name}:eclipseClasspath") }.flatten() +
+                listOf("generateLibAll")
         )
 
         group = "IDE"
@@ -94,14 +97,13 @@ tasks {
     }
 
     register("sarosEclipse", Copy::class) {
-        dependsOn(
-                ":ExampleFrontend:jar")
 
         group = "Build"
         description = "Builds and tests all modules required by Saros for Eclipse"
 
+		from(project(":LibBundle").tasks.findByName("jar"))
         from(project(":ExampleCore").tasks.findByName("jar"))
-        from(project(":ExampleFrontend").tasks.findByName("jar"))
+		from(project(":ExampleFrontend").tasks.findByName("jar"))
         into("build/distribution/eclipse")
     }
 }
