@@ -29,7 +29,7 @@ sarosEclipse {
 }
 
 dependencies {
-    releaseDep(files("lib/json-simple-1.1.1.jar"))
+    releaseDep(files("libs/json-simple-1.1.1.jar"))
 }
 
 sourceSets {
